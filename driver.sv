@@ -4,6 +4,7 @@ class driver;
 mailbox drv_mbx=new(10);
 virtual haif haif;
 static int drv_ctrl=0;
+event drv_done;
 int num=0;
 task run();
   $display("T=%0t [Driver] starting...",$time);
@@ -17,16 +18,17 @@ task run();
   else begin
     $display("mailbox values are not received");
   end
+    $display("value1");
     drv_mbx.get(item.a);
+    $display("value2");
     drv_mbx.get(item.b);
-    drv_mbx.get(item.cout);
-    drv_mbx.get(item.sum);
     item.print("Driver");
     haif.a=item.a;
     haif.b=item.b;
     $display("T=%0t[Driver] Item Updated to Interface",$time);
     drv_ctrl=drv_ctrl+1;
     num=0;
+    ->drv_done;
   end 
 endtask
 endclass

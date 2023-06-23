@@ -26,6 +26,6 @@ class env;
  d0.run();
  m0.run();
  s0.run();
- join_none
+ join_any
  endtask
 endclass

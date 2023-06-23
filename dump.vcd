@@ -1,11 +1,11 @@
 $date
-	Fri Jun 23 15:28:35 2023
+	Fri Jun 23 15:58:46 2023
 $end
 $version
 	ModelSim Version 6.6d
 $end
 $timescale
-	1ps
+	1ns
 $end
 $scope module tb $end
 $scope module u0 $end
@@ -23,27 +23,32 @@ x"
 x#
 x$
 $end
-#20
+#11
 0#
 0$
 0"
 0!
-#40
+#22
+1$
+1!
+#33
 1#
+0$
+#44
 1$
 1"
-#70
-0#
-0"
-1!
-#90
-1#
-1"
 0!
-#101
+#55
 0#
+0$
 0"
+#66
+1$
 1!
-#120
+#77
 1#
 0$
+#88
+1$
+1"
+0!
