@@ -1,0 +1,130 @@
+# Current time Mon Jun 19 17:03:46 2023
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.6d"
+# Version = "2010.11"
+# Date = "Nov  2 2010"
+# Platform = win32pe
+# 0    0x00691b51: '<unknown (@0x691b51)>'
+# 1    0x00692be6: '<unknown (@0x692be6)>'
+# 2    0x00a3d519: '<unknown (@0xa3d519)>'
+# 3    0x0073725c: '<unknown (@0x73725c)>'
+# 4    0x1000bdd4: 'TclInvokeStringCommand + 0x74' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 5    0x1000c770: 'TclEvalObjvInternal + 0x230' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x1000dd77: 'Tcl_EvalEx + 0x167' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1000e0d6: 'Tcl_Eval + 0x16' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x1000e53c: 'Tcl_GlobalEval + 0x1c' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 9    0x0095e822: '<unknown (@0x95e822)>'
+# 10   0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 11   0x1006b4dd: 'TclpCreateProcess + 0xced' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 12   0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 13   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 14   0x00a1f1bc: '<unknown (@0xa1f1bc)>'
+# 15   0x00726d41: '<unknown (@0x726d41)>'
+# End of Stack Trace
+
+
+# Current time Mon Jun 19 17:07:53 2023
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.6d"
+# Version = "2010.11"
+# Date = "Nov  2 2010"
+# Platform = win32pe
+# 0    0x00691b51: '<unknown (@0x691b51)>'
+# 1    0x00692be6: '<unknown (@0x692be6)>'
+# 2    0x00a3d519: '<unknown (@0xa3d519)>'
+# 3    0x0073725c: '<unknown (@0x73725c)>'
+# 4    0x1000bdd4: 'TclInvokeStringCommand + 0x74' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 5    0x1000c770: 'TclEvalObjvInternal + 0x230' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x1000dd77: 'Tcl_EvalEx + 0x167' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1000e0d6: 'Tcl_Eval + 0x16' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x1000e53c: 'Tcl_GlobalEval + 0x1c' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 9    0x0095e822: '<unknown (@0x95e822)>'
+# 10   0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 11   0x1006b4dd: 'TclpCreateProcess + 0xced' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 12   0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 13   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 14   0x00a1f1bc: '<unknown (@0xa1f1bc)>'
+# 15   0x00726d41: '<unknown (@0x726d41)>'
+# End of Stack Trace
+
+
+# Current time Mon Jun 19 17:09:55 2023
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.6d"
+# Version = "2010.11"
+# Date = "Nov  2 2010"
+# Platform = win32pe
+# 0    0x00691b51: '<unknown (@0x691b51)>'
+# 1    0x00692be6: '<unknown (@0x692be6)>'
+# 2    0x00a3d519: '<unknown (@0xa3d519)>'
+# 3    0x0073725c: '<unknown (@0x73725c)>'
+# 4    0x1000bdd4: 'TclInvokeStringCommand + 0x74' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 5    0x1000c770: 'TclEvalObjvInternal + 0x230' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x1000dd77: 'Tcl_EvalEx + 0x167' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1000e0d6: 'Tcl_Eval + 0x16' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x1000e53c: 'Tcl_GlobalEval + 0x1c' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 9    0x0095e822: '<unknown (@0x95e822)>'
+# 10   0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 11   0x1006b4dd: 'TclpCreateProcess + 0xced' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 12   0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 13   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 14   0x00a1f1bc: '<unknown (@0xa1f1bc)>'
+# 15   0x00726d41: '<unknown (@0x726d41)>'
+# End of Stack Trace
+
+
+# Current time Mon Jun 19 17:13:10 2023
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.6d"
+# Version = "2010.11"
+# Date = "Nov  2 2010"
+# Platform = win32pe
+# 0    0x00691b51: '<unknown (@0x691b51)>'
+# 1    0x00692be6: '<unknown (@0x692be6)>'
+# 2    0x00a3d519: '<unknown (@0xa3d519)>'
+# 3    0x0073725c: '<unknown (@0x73725c)>'
+# 4    0x1000bdd4: 'TclInvokeStringCommand + 0x74' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 5    0x1000c770: 'TclEvalObjvInternal + 0x230' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x1000dd77: 'Tcl_EvalEx + 0x167' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1000e0d6: 'Tcl_Eval + 0x16' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x1000e53c: 'Tcl_GlobalEval + 0x1c' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 9    0x0095e822: '<unknown (@0x95e822)>'
+# 10   0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 11   0x1006b4dd: 'TclpCreateProcess + 0xced' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 12   0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 13   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 14   0x00a1f1bc: '<unknown (@0xa1f1bc)>'
+# 15   0x00726d41: '<unknown (@0x726d41)>'
+# End of Stack Trace
+
+
+# Current time Fri Jun 23 13:51:28 2023
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.6d"
+# Version = "2010.11"
+# Date = "Nov  2 2010"
+# Platform = win32pe
+# 0    0x00691b51: '<unknown (@0x691b51)>'
+# 1    0x00692be6: '<unknown (@0x692be6)>'
+# 2    0x00a3d519: '<unknown (@0xa3d519)>'
+# 3    0x0073725c: '<unknown (@0x73725c)>'
+# 4    0x1000bdd4: 'TclInvokeStringCommand + 0x74' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 5    0x1000c770: 'TclEvalObjvInternal + 0x230' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x1000dd77: 'Tcl_EvalEx + 0x167' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1000e0d6: 'Tcl_Eval + 0x16' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x1000e53c: 'Tcl_GlobalEval + 0x1c' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 9    0x0095e822: '<unknown (@0x95e822)>'
+# 10   0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 11   0x1006b4dd: 'TclpCreateProcess + 0xced' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 12   0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 13   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'd:\progam_files\modelsim_ase\win32aloem\tcl84.dll'
+# 14   0x00a1f1bc: '<unknown (@0xa1f1bc)>'
+# 15   0x00726d41: '<unknown (@0x726d41)>'
+# End of Stack Trace
+
+

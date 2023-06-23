@@ -1,0 +1,26 @@
+include "interface.sv";
+import packet::packet;
+class monitor;
+mailbox scb_mbx;
+virtual haif haif;
+
+task run();
+  $display("T = %0t [Monitor] Starting..",$time);
+  forever begin
+    packet item=new;
+   #10 $display("T = %0t [Monitor] Forever starts",$time);
+    item.a=haif.a;
+    item.b=haif.b;
+    item.sum=haif.sum;
+    item.cout=haif.cout;
+    item.print("Monitor");
+    scb_mbx.put(item.a);
+    scb_mbx.put(item.b);
+    scb_mbx.put(item.sum);
+    scb_mbx.put(item.cout);
+    $display("T = %0t [Monitor] Forever Ends",$time);
+  end
+endtask
+endclass
+  
+

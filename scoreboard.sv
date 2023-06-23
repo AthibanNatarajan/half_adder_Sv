@@ -1,0 +1,30 @@
+import packet::packet;
+class scoreboard;
+ mailbox scb_mbx;
+ packet refq;
+ task run();
+ forever begin
+ packet item=new;
+ #13 scb_mbx.get(item.a);
+ scb_mbx.get(item.b);
+ scb_mbx.get(item.sum);
+ scb_mbx.get(item.cout);
+ item.print("Scoreboard");
+ $display("Entered ScoreBoard");
+ refq=item;
+ refq.scoreboard_ref_val();
+ if(refq.sum==item.sum)begin
+   $display("T=%0t PASS! refq.sum=%0b item.sum=%0b",$time,refq.sum,item.sum);
+ end
+ else begin
+   $display("T=%0t ERROR! refq.sum=%0b item.sum=%0b",$time,refq.sum,item.sum);
+ end
+ if(refq.cout==item.cout)begin
+   $display("T=%0t PASS! refq.cout=%0b item.cout=%0b",$time,refq.cout,item.cout);
+ end
+ else begin
+   $display("T=%0t ERROR! refq.cout=%0b item.cout=%0b",$time,refq.cout,item.cout);
+end
+ end
+ endtask
+endclass

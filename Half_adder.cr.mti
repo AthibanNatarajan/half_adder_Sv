@@ -1,0 +1,86 @@
+D:/Tessolve/Half_adder/Half_adder_design.sv {1 {vlog -work work -sv -nocovercells D:/Tessolve/Half_adder/Half_adder_design.sv
+Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+-- Compiling module half_adder_design
+
+Top level modules:
+	half_adder_design
+
+} {} {}} D:/Tessolve/Half_adder/packet.sv {1 {vlog -work work -sv -nocovercells D:/Tessolve/Half_adder/packet.sv
+Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+-- Compiling package packet
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Tessolve/Half_adder/scoreboard.sv {2 {vlog -work work -sv -nocovercells D:/Tessolve/Half_adder/scoreboard.sv
+Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+** Warning: D:/Tessolve/Half_adder/scoreboard.sv(3): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Tessolve/Half_adder/env.sv {2 {vlog -work work -sv -nocovercells D:/Tessolve/Half_adder/env.sv
+Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+-- Compiling interface haif
+** Warning: interface.sv(1): (vlog-2275) 'haif' already exists and will be overwritten.
+-- Compiling interface haif
+** Warning: monitor.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: scoreboard.sv(3): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+-- Compiling interface haif
+** Warning: driver.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: D:/Tessolve/Half_adder/env.sv(10): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+-- Compiling package env_sv_unit
+-- Importing package packet
+** Warning: monitor.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: scoreboard.sv(3): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: driver.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: D:/Tessolve/Half_adder/env.sv(10): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+-- Compiling interface haif
+** Warning: monitor.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: scoreboard.sv(3): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: driver.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: D:/Tessolve/Half_adder/env.sv(10): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+-- Compiling interface haif
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Tessolve/Half_adder/interface.sv {1 {vlog -work work -sv -nocovercells D:/Tessolve/Half_adder/interface.sv
+Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+-- Compiling interface haif
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Tessolve/Half_adder/tb.sv {2 {vlog -work work -sv -nocovercells D:/Tessolve/Half_adder/tb.sv
+Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+-- Compiling interface haif
+** Warning: interface.sv(1): (vlog-2275) 'haif' already exists and will be overwritten.
+-- Compiling interface haif
+** Warning: monitor.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: scoreboard.sv(3): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+-- Compiling interface haif
+** Warning: driver.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: env.sv(10): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: test.sv(6): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+-- Compiling package tb_sv_unit
+-- Importing package packet
+** Warning: monitor.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: scoreboard.sv(3): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: driver.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: env.sv(10): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: test.sv(6): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+-- Compiling interface haif
+** Warning: monitor.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: scoreboard.sv(3): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: driver.sv(4): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: env.sv(10): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+** Warning: test.sv(6): (vlog-2181) Use of a parameterized class mailbox as a type creates a default specialization.
+-- Compiling interface haif
+-- Compiling package packet
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}}

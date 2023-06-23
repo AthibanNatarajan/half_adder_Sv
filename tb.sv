@@ -1,0 +1,19 @@
+include "test.sv";
+module tb;
+ haif _if ();
+ half_adder_design u0 (.sum (_if.sum),
+ .cout(_if.cout),
+ .a (_if.a),
+ .b (_if.b));
+ initial begin
+ test t0;
+ t0 = new;
+ t0.e0.haif = _if;
+ t0.run();
+ #100 $finish;
+ end
+ initial begin
+ $dumpfile("dump.vcd");
+ $dumpvars(0,tb.u0);
+ end
+endmodule
